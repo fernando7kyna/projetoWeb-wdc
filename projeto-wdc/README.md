@@ -17,12 +17,12 @@
 
 ## 📖 Visão Geral
 
-Landing page de alta conversão desenvolvida para o evento **"Pompo Olimpíadas"** - uma superaula online gratuita de Ginástica Íntima. O projeto demonstra expertise em desenvolvimento front-end moderno, otimização de performance e design responsivo profissional.
+Landing page de alta conversão desenvolvida para o evento **"Pompo Olimpíadas"** - uma superaula online gratuita de Ginástica Íntima. O projeto demonstra expertise em desenvolvimento front-end moderno e otimização de performance para desktop.
 
 ### 🎯 Objetivos Alcançados
 - ✅ **Conversão otimizada** com formulário estratégico de captura
 - ✅ **Performance excepcional** (Lighthouse Score: 95+)
-- ✅ **Design responsivo** perfeito em todos os dispositivos
+- ✅ **Design otimizado para desktop** com interface moderna
 - ✅ **SEO otimizado** com meta tags e estrutura semântica
 - ✅ **Acessibilidade** seguindo padrões WCAG 2.1
 
@@ -70,7 +70,7 @@ projeto-wdc/
 ### **Padrões Implementados**
 - 🏗️ **Component-Based Architecture** - Componentes reutilizáveis
 - 🎨 **Design System** - Tokens centralizados
-- 📱 **Mobile-First Approach** - Design responsivo
+- 🖥️ **Desktop-First Approach** - Design otimizado para desktop
 - ⚡ **Performance-First** - Otimizações de carregamento
 - 🔧 **Clean Code** - Código limpo e documentado
 
@@ -142,7 +142,7 @@ open http://localhost:3000
 - ⚡ **Image Optimization** - WebP/AVIF automático
 - 🗜️ **Code Splitting** - Bundle otimizado
 - 🚀 **Lazy Loading** - Carregamento sob demanda
-- 📱 **Responsive Images** - Diferentes tamanhos
+- 🖼️ **Optimized Images** - Imagens otimizadas para desktop
 - 🎯 **Critical CSS** - Above-the-fold otimizado
 
 ---
@@ -169,10 +169,10 @@ open http://localhost:3000
 
 ### **Breakpoints**
 ```css
-sm: 640px   /* Mobile */
-md: 768px   /* Tablet */
+/* Design otimizado para desktop */
 lg: 1024px  /* Desktop */
 xl: 1280px  /* Large Desktop */
+2xl: 1536px /* Ultra-wide Desktop */
 ```
 
 ---
@@ -202,20 +202,18 @@ export const colors = {
 
 ---
 
-## 📱 Responsividade
+## 🖥️ Design Desktop
 
-### **Estratégia Mobile-First**
-- Design otimizado para mobile
-- Breakpoints estratégicos
-- Touch-friendly interactions
-- Performance otimizada
+### **Estratégia Desktop-First**
+- Design otimizado para desktop
+- Layout focado em telas grandes
+- Interações com mouse e teclado
+- Performance otimizada para desktop
 
-### **Testes de Dispositivos**
-- ✅ iPhone SE (375px)
-- ✅ iPhone 12 (390px)
-- ✅ iPad (768px)
+### **Resoluções Suportadas**
 - ✅ Desktop (1920px)
-- ✅ Ultra-wide (2560px)
+- ✅ Large Desktop (2560px)
+- ✅ Ultra-wide (3440px)
 
 ---
 
